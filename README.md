@@ -1,6 +1,6 @@
 # SubdomainTakeoverTools
 
-Table Of Contents:===============================
+===================================================
 
 1. CNAMEDigger
 2. NXDOMAINDigger
@@ -12,13 +12,10 @@ Usage: ```./CNMAEDigger subdomains.txt > CNAMEDigger_report.txt```
 
 
 
-#NXDOMAINDigger
+# NXDOMAINDigger
 
 Usage: ```./NXDOMAINDigger subdomains.txt > NXDOMAINDigger_report.txt```
 
+------------------------------------------------------------------------
 
-[[Created By xMrEhAcKeR]
-
-===========================================================================
----------------------------------------------------------------------------
-`Bye!`
+Created By: xMrEhAcKeR :)
