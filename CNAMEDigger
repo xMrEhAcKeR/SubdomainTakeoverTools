@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for OUTPUT in $(cat $1)
+do
+    dig $OUTPUT | grep "CNAME"
+done
