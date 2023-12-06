@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for OUTPUT in $(cat $1)
+do
+    dig $OUTPUT | awk '/NXDOMAIN/ {flag=1; next} flag && /CNAME/ {print; exit}'
+done
+     
